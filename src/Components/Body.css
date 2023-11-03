@@ -1,0 +1,35 @@
+/* Body.css */
+
+.body {
+    background-color: #333; /* Match the background color of the navbar */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro-banner {
+    height: 70vh; /* Set the height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-banner h1 {
+    font-size: 58px;
+  }
+  
+  .intro-banner p {
+    font-size: 18px;
+  }
+  
+  .swap-button .button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #FF5722;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
