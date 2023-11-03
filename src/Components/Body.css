@@ -4,11 +4,11 @@
     background-color: #333; /* Match the background color of the navbar */
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
   
   .intro-banner {
-    height: 70vh; /* Set the height to 100% of the viewport height */
+    height: 75vh; /* Set the height to 100% of the viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@
   }
   
   .intro-banner p {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .swap-button .button {

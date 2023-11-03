@@ -50,6 +50,7 @@
     background-color: #FF5722;
     color: white;
     cursor: pointer;
+    align-items: end;
   }
   
   .buttons .swap {

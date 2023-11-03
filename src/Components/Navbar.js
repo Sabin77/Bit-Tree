@@ -3,48 +3,33 @@ import './Navbar.css'; // Create a CSS file for styling
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div className="logo">
-        <img src="logo.png" alt="LN-SWAP" />
-      </div>
-      <ul className="nav-menu">
-        <li className="nav-item">
-          <a href="/">Protocol</a>
-        </li>
-        <li className="nav-item dropdown">
-          <a href="/">Resources</a>
-          <ul className="dropdown-menu">
-            <li>
-              <a href="/">Resource 1</a>
-            </li>
-            <li>
-              <a href="/">Resource 2</a>
-            </li>
-            <li>
-              <a href="/">Resource 3</a>
-            </li>
-          </ul>
-        </li>
-        <li className="nav-item dropdown">
-          <a href="/">Learn</a>
-          <ul className="dropdown-menu">
-            <li>
-              <a href="/">Course 1</a>
-            </li>
-            <li>
-              <a href="/">Course 2</a>
-            </li>
-            <li>
-              <a href="/">Course 3</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <div className="buttons">
-        <button className="button swap">Swap</button>
-        <button className="button refund">Refund</button>
+    <nav className="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div className="container-fluid">
+      <a className="navbar-brand" href="/"><img src="logo.svg" alt="Logo" width="40" height="30" className="d-inline-block align-text-top"/>LN-SWAP</a>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="/">How it works</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/">Contact Us</a>
+          </li>
+          
+          
+        </ul>
+        <form className="d-flex" role="search">
+          <button className="btn btn-success me-2" type="submit">Swap</button>
+          <button className="btn btn-secondary " type="submit">Refund</button>
+        </form>
       </div>
     </div>
+  </nav>
   );
 }
 
